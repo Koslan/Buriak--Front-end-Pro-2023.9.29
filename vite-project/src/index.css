@@ -1,0 +1,115 @@
+body {
+  background-color: #0d1117; /* Dark Gray similar to GitHub's dark theme */
+  color: #c9d1d9; /* Default text color adjusted for dark mode */
+}
+
+.container {
+  display: flex;
+}
+
+aside {
+  width: 20%; 
+  border-right: 1px solid #30363d; /* Darker border */
+  padding: 20px 0;
+  background-color: #161b22; /* Slightly darker background for sidebar */
+}
+
+.navList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.navList li {
+  margin-bottom: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #0366d6; /* Github link color */
+  font-weight: 500;
+  padding: 5px 10px;
+  display: block;
+}
+
+nav ul li a:hover {
+  background-color: #f6f8fa; /* Github hover background color */
+  border-radius: 3px;
+}
+
+main {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+
+/* Dark background and light text */
+body, html {
+  background-color: #0d1117;
+  color: #c9d1d9;
+  font-family: Arial, sans-serif;
+}
+
+/* Container Styles */
+.container {
+  display: flex;
+  background-color: #0d1117;
+  color: #c9d1d9;
+  height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+aside {
+  width: 20%;
+  border-left: 1px solid #30363d;
+  padding: 20px 0;
+  background-color: #161b22;
+}
+
+button, a {
+  border: 1px solid #30363d;
+  background-color: #21262d;
+  color: #c9d1d9;
+  padding: 8px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+button:hover, a:hover {
+  background-color: #30363d;
+}
+
+h1, h2, h3 {
+  color: #c9d1d9;
+}
+
+input, textarea, select {
+  background-color: #21262d;
+  color: #c9d1d9;
+  border: 1px solid #30363d;
+  border-radius: 6px;
+  padding: 8px;
+  width: 100%;
+}
+
+input:focus, textarea:focus, select:focus {
+  border-color: #0366d6;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(3,102,214,0.3);
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
